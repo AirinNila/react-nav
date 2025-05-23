@@ -4,7 +4,7 @@ const Link = ({route}) => {
     return (
         <nav>
            
-                <li><a>{route.name}</a></li>
+                <li className='hover:bg-blue-300 p-2'><a>{route.name}</a></li>
         
         </nav>
     );
