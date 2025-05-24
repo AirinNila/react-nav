@@ -20,7 +20,7 @@ const Navb = () => {
                     open === true ? <IoCloseSharp /> :  <FiAlignJustify />
                 }
                  </div>
-            <ul className={`flex flex-col absolute md:static md:relative p-2 ml-2 md:ml-0 gap-2 md:flex-row md:justify-evenly bg-blue-100 text-black text-xl decoration-1
+            <ul className={`flex flex-col absolute md:static p-2 ml-2 md:ml-0 gap-2 md:flex-row md:justify-evenly bg-blue-100 text-black text-xl decoration-1
                 ${open ? 'top-10' : '-top-80'}`}>
               
             {

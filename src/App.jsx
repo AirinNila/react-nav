@@ -1,6 +1,8 @@
 
 import Navb from './component/navbar/navbar'
 import './App.css'
+import PriceOption from './component/priceOptions/priceOptions'
+import PriceOptions from './component/priceOptions/priceOptions'
 
 function App() {
  
@@ -10,6 +12,7 @@ function App() {
     <div>
       
      <Navb></Navb>
+     <PriceOptions></PriceOptions>
     </div>
     </>
   )
